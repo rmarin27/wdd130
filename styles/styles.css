@@ -40,6 +40,11 @@ aside {
     width: 20em;
     text-align: center;
     position: relative;
+    margin: 2px;
+    border: #000;
+    padding: 2px;
+    background-color: #ddd;
+    color: #000;
 }
 
 aside img {
