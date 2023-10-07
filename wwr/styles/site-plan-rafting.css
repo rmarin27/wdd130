@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Signika+Negative&display=swap');
 :root {
     --primary-color: #DB793B;
     --secondary-color: #FAEE1C;
     --accent1-color: #0093E0;
     --accent2-color: #2C1476;
     --heading-font: "signika negative", sans-serif;
-    --paragraph-font: "signika negative", sans-serif;
-    --nav-background-color: var(--accent2-color);
-    --nav_link-color: var(--accent1-colorcolor);
-    --nav-hover-background-color: var(--primary-color);
+    --paragraph-font: "roboto", sans-serif;
+    --nav-background-color: #2C1476;
+    --nav_link-color:#0093E0 ;
+    --nav-hover-background-color:#DB793B;
 }
 
 body {
@@ -58,3 +59,16 @@ nav a:hover {
     color: var(--secondary-color);
     background-color: var(--accent2-color);
 }
+/* .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+.colors th {
+    background-color: #2C1476;
+}
+.colors td {
+    width: 25%;
+    height: 3em;
+} */
