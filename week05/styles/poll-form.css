@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1em;
+    color: black;
+    background: #d3b6fa;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+    font-family: "Young Serif", serif;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+    font-family: "Young Serif", serif;
+}
+
+form {
+    width: 35rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,128,0.5);
+    border-radius: .5rem;
+    background-color: #c5fafa;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+legend {
+    padding: .5rem;
+    color: navy;
+    font-size: 1.3em;
+    font-family: "Young Serif", serif;
+}
+
+label, input, button, select, textarea {
+    font-family: "nukita young", sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin:1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: darkgreen;
+}
+footer {
+    margin: 1rem auto 0;
+    width: 35rem;
+    text-align: center;
+    font-size: .8em;
+    color: navy;
+    padding-bottom: 5px;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+.feedback {
+    display: flex;
+    justify-content: center;
+    margin: .5rem 0;
+
+}
