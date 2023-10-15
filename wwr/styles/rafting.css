@@ -14,7 +14,7 @@
 }
 main {
     max-width: 100%;
-    margin: 1em;
+    margin: 4em;
 }
 h1 {
     font-size: 20pt;
@@ -27,12 +27,13 @@ h2 {
 }
 
 body {
-    color: var(--accent2-color)
+    color: var(--accent-color)
 }
 
 a {
     text-decoration: none;
-    color: var(--accent1-color);
+    color: var(--accent2-color);
+    font-size: 1.5rem;
 }
 
 .hero {
@@ -44,6 +45,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: .5rem;
 }
 
 .overlay {
@@ -89,6 +91,10 @@ header {
     align-items: center;
     max-width: 1000px;
     font-family: var(--heading-font);
+    border: 3px solid rgba(44,20,118,.8);
+    padding: 1rem;
+    border-radius: .5rem;
+    
 }
 
 nav {
@@ -96,8 +102,7 @@ nav {
     justify-content: space-around;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: var(--heading-font);
 }
 
@@ -128,6 +133,7 @@ figure img {
     justify-content: space-around;
     background-color: var(--accent2-color);
     color:#FFFFFF;
+    border-radius: .5rem;
 }
 .wwr-images-title {
     display: flex;
@@ -136,6 +142,7 @@ figure img {
 }
 img {
     width: 13em;
+    border-radius: .5rem;
 }
 
 figcaption {
@@ -146,5 +153,90 @@ figcaption {
     justify-content: flex-end;
 }
 .logo {
-    width:3em;
+    width:2em;
+}
+.company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--accent2-color);
+}
+.map {
+   border: 1px solid var(--accent2-color);
+   margin: 2rem;
+   border-radius: .5rem;
+}
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--accent2-color);
+    color: #fff;
+    align-items: center;
+    padding: 5px;
+    border-radius: .5rem;
+}
+form {
+    width: 35rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid var(--accent2-color);
+    border-radius: .5rem;
+    display: grid;
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color);
+    background-color: var(--primary-color);
+    font-weight: 600;
+}
+fieldset {
+    
+    border-radius: .5rem;
+    margin: 5px;
+    border: 1px solid var(--accent2-color);
+    
+}
+.form-item {
+    display: grid;
+    align-items: center;
+  
+
+}
+.item1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-content: stretch;
+
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.q-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+.submit {
+    display: flex;
+}
+.purpose {
+    display: flex;
+    flex-direction: row;
+}
+legend {
+    font-size: 1.2rem;
+    margin: 0 auto;
+
+}
+label {
+    padding: 5px;
+}
+.h1-message {
+    display: flex;
+    justify-content: center;
 }
