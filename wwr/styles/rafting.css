@@ -12,12 +12,13 @@
     --nav_link-color: #0093E0;
     --nav-hover-background-color: #DB793B;
 }
+
 main {
     max-width: 100%;
-    margin: 4em;
 }
+
 h1 {
-    font-size: 20pt;
+    font-size: 25pt;
     color: #FFFFFF;
 }
 
@@ -91,10 +92,10 @@ header {
     align-items: center;
     max-width: 1000px;
     font-family: var(--heading-font);
-    border: 3px solid rgba(44,20,118,.8);
+    border: 3px solid rgba(44, 20, 118, .8);
     padding: 1rem;
     border-radius: .5rem;
-    
+
 }
 
 nav {
@@ -102,7 +103,8 @@ nav {
     justify-content: space-around;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
 }
 
@@ -115,31 +117,37 @@ p {
     flex-direction: row;
     gap: 15px;
 }
+
 .history-title {
-    display:flex;
+    display: flex;
     justify-content: center;
-    
+
 }
+
 figure {
     flex-basis: 20%;
 }
+
 figure img {
     max-width: 100%;
 }
+
 .wwr-images {
     display: flex;
     margin: 20px;
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--accent2-color);
-    color:#FFFFFF;
+    color: #FFFFFF;
     border-radius: .5rem;
 }
+
 .wwr-images-title {
     display: flex;
     justify-content: center;
-   
+
 }
+
 img {
     width: 13em;
     border-radius: .5rem;
@@ -148,24 +156,29 @@ img {
 figcaption {
     font-family: var(--paragraph-font);
 }
+
 .sociallinks {
     display: flex;
     justify-content: flex-end;
 }
+
 .logo {
-    width:2em;
+    width: 2em;
 }
+
 .company-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--accent2-color);
 }
+
 .map {
-   border: 1px solid var(--accent2-color);
-   margin: 2rem;
-   border-radius: .5rem;
+    border: 1px solid var(--accent2-color);
+    margin: 2rem;
+    border-radius: .5rem;
 }
+
 .employees {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -175,6 +188,7 @@ figcaption {
     padding: 5px;
     border-radius: .5rem;
 }
+
 form {
     width: 35rem;
     margin: 0 auto;
@@ -187,19 +201,22 @@ form {
     background-color: var(--primary-color);
     font-weight: 600;
 }
+
 fieldset {
-    
+
     border-radius: .5rem;
     margin: 5px;
     border: 1px solid var(--accent2-color);
-    
+
 }
+
 .form-item {
     display: grid;
     align-items: center;
-  
+
 
 }
+
 .item1 {
     display: flex;
     flex-direction: column;
@@ -212,8 +229,9 @@ fieldset {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    
+
 }
+
 .q-row {
     display: flex;
     flex-direction: row;
@@ -221,29 +239,36 @@ fieldset {
     padding: 5px;
     margin: 5px;
 }
+
 .submit {
     display: flex;
 }
+
 .purpose {
     display: flex;
     flex-direction: row;
 }
+
 legend {
     font-size: 1.2rem;
     margin: 0 auto;
 
 }
+
 label {
     padding: 5px;
 }
+
 .h1-message {
     display: flex;
     justify-content: center;
 }
+
 .explore {
     display: flex;
     justify-content: center;
 }
+
 .trips {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -253,27 +278,34 @@ label {
     color: #fff;
     padding: .5rem;
 }
+
 .trips figcaption {
     display: flex;
     justify-content: center;
 }
+
 .trips p {
     display: flex;
     justify-content: center;
     padding: 5px;
 }
+
 .comparison {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 }
-table, th, td {
+
+table,
+th,
+td {
     background-color: var(--primary-color);
     font-family: var(--paragraph-font);
     border: 1px solid var(--accent2-color);
     border-collapse: collapse;
     padding: 1rem;
 }
+
 th {
     background-color: var(--secondary-color);
     border: 1px solid var(--accent2-color);
@@ -283,6 +315,7 @@ th {
     display: flex;
     justify-content: center;
 }
+
 .contact-link {
     display: flex;
     flex-direction: column;
@@ -290,14 +323,58 @@ th {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-family: var(--paragraph-font);
-   
+
 }
+
 .contact-link a {
     font-weight: bold;
     font-size: 2rem;
 }
+
 footer {
     margin: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.home-hero img {
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.home-title {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    background-color: var(--accent2-color);
+    width: 100%;
+    opacity: .7;
+    margin-top: 3rem;
+    justify-content: center;
+   
+}
+
+.whoweare {
+    display: flex;
+    justify-content: center;
+}
+
+.who-grid {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    width: 60rem;
+    margin: 0 auto;
+    background-color: var(--accent2-color);
+    color: #fff;
+    border-radius: .5rem;
+
+}
+
+.who-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
